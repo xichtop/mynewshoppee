@@ -1,0 +1,255 @@
+.app1{
+    position: fixed;
+}
+.grid--column-2-5{
+    width: 16.6667%;
+}
+.grid--column-2-5-1{
+    width: 8.3335%;
+}
+.grid--column-2-5-2{
+    width: 33.334%;
+}
+.grid--column-8{
+    width: 66.6666%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+.grid--column-8-4{
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.product--detail{
+    display: flex;
+}
+
+.product--detail-img{
+    height: 400px;
+    width: 100%;
+    object-fit:cover;
+}
+.product--detail--contain-header{
+    padding: 0px 0 20px 15px;
+    font-size: 3.6rem;
+    color: var(--primary-color);
+    line-height: 3.6rem;
+}
+
+.product--detail--contain-rating{
+    padding-left: 15px;
+    font-size: 1.8rem;
+}
+
+.product--detail--contain-rating-label{
+    color: brown;
+}
+
+.home--detail--contain-price{
+    font-size: 2.8rem;
+    display: flex;
+    align-items: center;
+    padding: 25px 0 25px 15px;
+}
+
+.home--detail--contain-price-old{
+    color: #666;
+    font-size: 2rem;
+    padding-left: 10px;
+    text-decoration: line-through;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.home--detail--contain-price-current{
+    color: var(--primary-color);
+    padding: 0 10px 0 10px;
+}
+
+.home--detail--contain-info{
+    padding-left: 15px;
+    font-size: 2.2rem;
+}
+
+.home--detail--contain-info-label{
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home--detail--contain-amount{
+    font-size: 1.8rem;
+    padding: 80px 0 0 15px;
+}
+
+.fa-minus-circle{
+    color: var(--primary-color);
+}
+
+.fa-plus-circle{
+    color: var(--primary-color);
+}
+
+.home--detail--contain-amount-link{
+    text-decoration: none;
+}
+
+.home--detail--contain-control{
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 2rem;
+}
+
+
+.btn-add{
+    margin-right: 10px;
+}
+
+
+.cart--list--header{
+    text-align: center;
+	line-height: 25px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-right: 0.5px white solid;
+}
+
+.cart--list-img{
+    width: 100%;
+    object-fit: cover;
+}
+.cart--list--contain{
+    display: flex;
+    align-items: center;
+    border-right: 0.5px var(--primary-color) solid;
+}
+
+.cart--list--contain-label{
+    font-size: 2rem;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cart--list--contain-icon{
+    font-size: 2rem;
+}
+.cart--list--contain-amout{
+    margin: auto;
+}
+
+.grid--row1{
+    border: 0.5px var(--primary-color) solid;
+    margin-bottom: 5px;
+}
+
+.cart--list--contain-link{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.cart--list--contain--info{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.btn--cart--list{
+    width: 100%;
+    height: 30px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.btn--cart--list-link{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.2rem;
+}
+
+.pay--container{
+    width: 500px;
+}
+.pay--header{
+    display: flex;
+    width: 100%;
+    font-size: 2rem;
+    
+}
+.pay--header-heading{
+    margin: 15px auto;
+    color: var(--primary-color);
+}
+
+.pay--info{
+    padding-left: 15px;
+    border-top: 0.5px black solid;
+    border-bottom: 0.5px black solid;
+}
+
+.pay--info--contain{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    position: relative;
+}
+.pay--info-item{
+    font-size: 1.6rem;
+    /* word-wrap: break-word; */
+    line-height: 20px;
+}
+
+.pay--info-input{
+    position: absolute;
+    right: 15px;
+    width: 380px;
+    height: 22px;
+    margin-left: 10px;
+}
+
+.pay--control{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
+    
+}
+
+.pay--control-link{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+/* ADMIN */
+.admin--header{
+    height: 55px;
+    background-image: linear-gradient(0, #ff6533 ,#f53e2d);
+}
+.admin--header--name{
+    padding-top: 10px;
+    font-size: 2.4rem;
+}
+.admin--nav{
+    padding-top: 10px;
+    
+}
+.admin--nav--link{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+    border: 0.5px black solid;
+    line-height: 2rem;
+}
+
+.admin--nav--link:hover{
+    background-color: var(--primary-color);
+    color: white;
+}

@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/views/form/chitietsp.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/form/dangki.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/home/index.jsp=UTF-8
+encoding//WebContent/assets/css/base.css=UTF-8
+encoding//src/f8/bean/Mailer.java=UTF-8
+encoding//src/f8/controller/AdminController.java=UTF-8
+encoding//src/f8/controller/HomeController.java=UTF-8
+encoding//src/f8/interceptor/SecurityAdminInterceptor.java=UTF-8
+encoding//src/f8/interceptor/SecurityUserInterceptor.java=UTF-8
